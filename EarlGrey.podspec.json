@@ -37,8 +37,12 @@
     "vendored_frameworks": "EarlGrey/EarlGrey.framework"
   },
   "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "FRAMEWORK_SEARCH_PATHS": "$(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks",
     "ENABLE_BITCODE": "NO",
     "OTHER_CFLAGS": "-fobjc-arc-exceptions"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   }
 }
