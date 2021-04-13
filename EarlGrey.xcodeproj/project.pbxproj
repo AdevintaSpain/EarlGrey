@@ -34,7 +34,7 @@
 		3FE259BC1F1D451200CFBB57 /* GREYAppStateTrackerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE259BA1F1D451200CFBB57 /* GREYAppStateTrackerObject.m */; };
 		47E029C924FE99F800473024 /* UITextSelectionView+GREYAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E029C724FE99F800473024 /* UITextSelectionView+GREYAdditions.h */; };
 		47E029CA24FE99F800473024 /* UITextSelectionView+GREYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E029C824FE99F800473024 /* UITextSelectionView+GREYAdditions.m */; };
-		597E02CA1D55AC040052A8D1 /* GREYPathGestureUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001081C5B46C100B2DB0A /* GREYPathGestureUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		597E02CA1D55AC040052A8D1 /* GREYPathGestureUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001081C5B46C100B2DB0A /* GREYPathGestureUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		597E02CB1D55AC180052A8D1 /* GREYScrollAction.h in Headers */ = {isa = PBXBuildFile; fileRef = FD10010C1C5B46C100B2DB0A /* GREYScrollAction.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		597E02CC1D55AC240052A8D1 /* GREYTapAction.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001181C5B46C100B2DB0A /* GREYTapAction.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		597E02CD1D55AC2B0052A8D1 /* GREYSwipeAction.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1001161C5B46C100B2DB0A /* GREYSwipeAction.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -971,6 +971,7 @@
 				FDA218ED1E450A9900693978 /* GREYErrorConstants.h in Headers */,
 				FDCB29821E24658E0001557E /* GREYScreenshotUtil+Internal.h in Headers */,
 				FD1002501C5B46C200B2DB0A /* GREYUIThreadExecutor.h in Headers */,
+				597E02CA1D55AC040052A8D1 /* GREYPathGestureUtils.h in Headers */,
 				FD1002481C5B46C200B2DB0A /* GREYNSTimerIdlingResource.h in Headers */,
 				FD1002461C5B46C200B2DB0A /* GREYDispatchQueueIdlingResource.h in Headers */,
 				FD10024A1C5B46C200B2DB0A /* GREYOperationQueueIdlingResource.h in Headers */,
@@ -985,7 +986,6 @@
 				3F38EF201F20269700EBDFFC /* GREYObjectDeallocationTracker.h in Headers */,
 				3FE259BB1F1D451200CFBB57 /* GREYAppStateTrackerObject.h in Headers */,
 				61E4E0BF1D755A0D007F9EE6 /* GREYPinchAction.h in Headers */,
-				597E02CA1D55AC040052A8D1 /* GREYPathGestureUtils.h in Headers */,
 				597E03051D55B3120052A8D1 /* GREYChangeStepperAction.h in Headers */,
 				597E030E1D55BC930052A8D1 /* GREYScrollToContentEdgeAction.h in Headers */,
 				597E02EE1D55AD6D0052A8D1 /* UIView+GREYAdditions.h in Headers */,
